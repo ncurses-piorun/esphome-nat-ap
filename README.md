@@ -1,5 +1,5 @@
 # esphome-nat-ap
-Repeater component for Esphome and esp-idf framework
+Repeater component for Esphome and esp-idf framework.
 This custom ESPHome component based on https://github.com/mag1024/esphome-nat-ap.git implements WIFI repeater/extender functionality
 for ESP32s. Specifically, it runs a SoftAP (in addition to the existing wifi connection), and configures it to perform NAT. Only works with the `esp-idf` framework (not Arduino).
 
