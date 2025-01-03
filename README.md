@@ -10,7 +10,7 @@ Usage:
 esphome:
   ...
 external_components:
-  - source: https://github.com/ncurses-piorun/esphome-nat-ap.git
+  - source: github://ncurses-piorun/esphome-nat-ap
 
 esp32:
   board: esp32dev
