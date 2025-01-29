@@ -10,7 +10,7 @@ Usage:
 esphome:
   ...
 external_components:
-  - source: github://ncurses-piorun/esphome-nat-ap
+  - source: github://ncurses-piorun/esphome-nat-ap@main
 
 esp32:
   board: esp32dev
@@ -23,6 +23,10 @@ esp32:
 
 wifi:
   ...
+  ap:
+    ssid: "Fallback Hotspot"
+    password: "W5Lqyert5u1r"
+    ap_timeout: 0s
 
 nat_ap:
   id: nat1
